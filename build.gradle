@@ -16,10 +16,18 @@ repositories {
 }
 
 dependencies {
+    // thymeleaf
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // web
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // devtools
+    compileOnly "org.springframework.boot:spring-boot-devtools"
 }
 
 tasks.named('test') {
