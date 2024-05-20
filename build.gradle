@@ -28,6 +28,10 @@ dependencies {
 
     // devtools
     compileOnly "org.springframework.boot:spring-boot-devtools"
+
+    // lombok
+    compileOnly "org.projectlombok:lombok"
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
